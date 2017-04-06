@@ -19,18 +19,18 @@ var dinnerPreference = ["steak", "pizza", "sushi"]
 
 var mealsILove = [lunchPreference, dinnerPreference]; //save array lunchPreference and array dinnerPreference inside the two dimensional array mealsILove
 
-console.log("I love " + mealsILove[0][2] + " for lunch.");//print salmon
-console.log("But I love even more " + mealsILove[1][0] + " for dinner."); //print steak
+console.log("I love " + mealsILove[0][2] + " for lunch.");//print string in the console
+console.log("But I love even more " + mealsILove[1][0] + " for dinner."); //print string in the console
 
 //Write a script that checks if a variable is less than 100. If it is, alert the user that their variable is less than 100. If it is not alert the user of what the value was and that it was greater than 100.
 
 var batteryLevel = 150;
 
 if (batteryLevel < 100) {
-  alert("Your battery is at "+ batteryLevel + "%. You have a few more hours before your phone dies."); // print this string if battery is less than 100
+  alert("Your battery is at "+ batteryLevel + "%. You have a few more hours before your phone dies."); // alert user if battery is less than 100
   }
   else {
-    alert("Your phone super charged! You're battery level is " + batteryLevel + "%.") //print this string if batteryLevel is greater than 100
+    alert("Your phone super charged! You're battery level is " + batteryLevel + "%.") //alert user if batteryLevel is greater than 100
 
 //Declare a function that depending upon which virtual 'door' was entered tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options. There must be at least 3 doors.
 
@@ -53,7 +53,7 @@ function doorGame (door) {
 var userName = "John";
 
 if (userName === "Daniela") {
-  console.log("Welcome back " + userNamename);//if the user's name equals to Daniela display string
+  console.log("Welcome back " + userNamename);//if the user's name is Daniela display string
 }
 else {
   console.log(userName + " is not a valid username. Please try again.");
